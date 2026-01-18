@@ -33,47 +33,6 @@ The goal is to defeat appearing enemies while avoiding their attacks and preserv
 
 ## How to Build and Run
 
-### Using the batch files:
-1. Double-click `build_and_run.bat` to compile and run the game
-2. Or use `build.bat` to compile, then `run.bat` to execute
-
-### Using Command Line:
-```cmd
-g++ -Wall -Wextra -std=c++17 main.cpp -o ascii_knight.exe
-ascii_knight.exe
-```
-
-### Using Makefile:
-```cmd
-make
-make run
-```
-
-### Using VSCode:
-- Press `Ctrl+Shift+B` to build
-- Press `F5` to debug
-
-## Project Structure
-
-```
-ascii_knight/
-├── main.cpp              # Main game file
-├── Makefile              # Build configuration
-├── README.md             # This file
-├── build.bat             # Windows build script
-├── run.bat               # Windows run script
-├── build_and_run.bat     # Build and run script
-└── .vscode/              # VSCode configuration
-    ├── tasks.json
-    ├── launch.json
-    └── c_cpp_properties.json
-```
-
-## Requirements
-
-- GCC compiler (MinGW on Windows)
-- Windows OS (for conio.h and windows.h libraries)
-- C++17 standard
 
 ## Game Rules
 
@@ -83,16 +42,10 @@ ascii_knight/
 4. Final wave includes a Boss enemy
 5. Game ends when HP reaches 0 (GAME OVER) or Boss is defeated (YOU WIN)
 
-## Development Status
-
-This is a basic project structure. The full game implementation is in progress.
-
 ## Author
 
-- **Name**: [Your Name]
-- **Faculty Number**: [Your Number]
+- **Name**: Yusmen Ismail Osman
+- **Faculty Number**: 5MI0600666
 - **Compiler**: GCC
 
-## License
 
-Educational project for Sofia University, FMI.
